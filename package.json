@@ -1,0 +1,25 @@
+{
+  "name": "openweather",
+  "version": "1.0.0",
+  "description": "This Project exposes API endpoint to fetch historical hourly weather data",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "author": "Vikas Bhandari",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "16.4.5",
+    "express": "^4.21.1",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.38"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^10.8.2",
+    "nock": "^13.5.5",
+    "supertest": "^7.0.0"
+  }
+}
