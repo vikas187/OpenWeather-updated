@@ -3,6 +3,9 @@ Make sure you have Docker Desktop installed on your machine.
 
 **Steps to Set Up and Run the API**
 
+**Clone the repository**</br>
+Open terminal and run the command:</br>
+git clone https://github.com/vikas187/OpenWeather.git
 
 **Run the API and test cases**</br>
 Start the API with:
