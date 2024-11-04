@@ -13,7 +13,7 @@ docker-compose up
 
 **Access the API**</br>
 Open your web browser and navigate to:
-http://localhost:3000/weather
+http://localhost:3000/weather?city=london
 
 **You can pass two parameters to the API:**</br>
 city: Specify the city for the weather report.</br>
@@ -36,4 +36,4 @@ npm start
 
 **Access the API**</br>
 Open your web browser and navigate to:
-http://localhost:3000/weather
+http://localhost:3000/weather?city=london
