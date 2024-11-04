@@ -7,6 +7,10 @@ Make sure you have Docker Desktop installed on your machine and its running.
 Open terminal and run the command:</br>
 git clone https://github.com/vikas187/OpenWeather.git
 
+**Build the docker image**</br>
+Open Terminal inside directory and run:
+docker-compose build or sudo docker-compose build(if you are not admin)
+
 **Run the API and test cases**</br>
 Open terminal inside directory start the API with:
 docker-compose up
