@@ -17,7 +17,7 @@ http://localhost:3000/weather?city=london
 
 **You can pass two parameters to the API:**</br>
 city: Specify the city for the weather report.</br>
-hour: Specify the hour (optional) for a specific time forecast.
+hour: Specify the hour (optional) in past you want to check the weather for the city provided.
 
 **Example:**
 http://localhost:3000/weather?city=Berlin&hour=14
