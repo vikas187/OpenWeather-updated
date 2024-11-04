@@ -1,5 +1,5 @@
 **Prerequisites**</br>
-Make sure you have Docker Desktop installed on your machine.
+Make sure you have Docker Desktop installed on your machine and its running.
 
 **Steps to Set Up and Run the API**
 
