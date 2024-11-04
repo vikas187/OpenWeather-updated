@@ -21,3 +21,19 @@ hour: Specify the hour (optional) for a specific time forecast.
 
 **Example:**
 http://localhost:3000/weather?city=Berlin&hour=14
+
+**Alternative Setup**</br>
+If you don't want to install docker, you can run the application using node.js. make sure you have node.js and npm installed</br>
+
+**Open the directory and run:**</br>
+npm install
+
+**Run test cases**</br>
+npm test
+
+**Run the API:**</br>
+npm start
+
+**Access the API**</br>
+Open your web browser and navigate to:
+http://localhost:3000/weather
