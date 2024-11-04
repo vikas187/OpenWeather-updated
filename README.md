@@ -8,7 +8,7 @@ Open terminal and run the command:</br>
 git clone https://github.com/vikas187/OpenWeather.git
 
 **Run the API and test cases**</br>
-Start the API with:
+Open terminal inside directory start the API with:
 docker-compose up
 
 **Access the API**</br>
