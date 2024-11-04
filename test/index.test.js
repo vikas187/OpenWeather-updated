@@ -18,13 +18,13 @@ describe('GET /', () => {
   });
 
   it('should return 400 if city is not provided', async () => {
-    const res = await request(app).get('/');
+    const res = await request(app).get('/weather');
     expect(res.status).to.equal(400);
     expect(res.text).to.equal('City is required');
   });
 
   it('should return 400 if hour is invalid', async () => {
-    const res = await request(app).get('/').query({ city: 'London', hour: -1 });
+    const res = await request(app).get('/weather').query({ city: 'London', hour: -1 });
     expect(res.status).to.equal(400);
     expect(res.text).to.equal('Valid hour is required');
   });
@@ -60,7 +60,7 @@ describe('GET /', () => {
       .query(true)
       .reply(200, apiResponse);
 
-    const res = await request(app).get('/').query({ city, hour });
+    const res = await request(app).get('/weather').query({ city, hour });
     expect(res.status).to.equal(200);
     expect(res.body).to.deep.equal({
       city: 'London',
@@ -108,7 +108,7 @@ describe('GET /', () => {
       .query(true)
       .reply(200, apiResponse);
 
-    const res = await request(app).get('/').query({ city });
+    const res = await request(app).get('/weather').query({ city });
     expect(res.status).to.equal(200);
     expect(res.body).to.deep.equal({
       city: 'London',
@@ -129,7 +129,7 @@ describe('GET /', () => {
       .query(true)
       .replyWithError('Something went wrong');
 
-    const res = await request(app).get('/').query({ city, hour });
+    const res = await request(app).get('/weather').query({ city, hour });
     expect(res.status).to.equal(500);
     expect(res.text).to.equal('Something went wrong');
   });
