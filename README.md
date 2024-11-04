@@ -3,13 +3,9 @@ Make sure you have Docker Desktop installed on your machine.
 
 **Steps to Set Up and Run the API**
 
-**Build the Docker Image**</br>
-Open a terminal inside the project directory and run:
-docker-compose build
 
-
-**Run the API**</br>
-After the build completes, start the API with:
+**Run the API and test cases**</br>
+Start the API with:
 docker-compose up
 
 **Access the API**</br>
