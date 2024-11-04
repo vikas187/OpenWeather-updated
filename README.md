@@ -5,15 +5,15 @@ Make sure you have Docker Desktop installed on your machine and its running.
 
 **Clone the repository**</br>
 Open terminal and run the command:</br>
-git clone https://github.com/vikas187/OpenWeather.git
+`git clone https://github.com/vikas187/OpenWeather.git`
 
 **Build the docker image**</br>
-Open Terminal inside directory and run:
-docker-compose build or sudo docker-compose build(if you are not admin)
+Open Terminal inside directory and run:</br>
+`docker-compose build` or `sudo docker-compose build`(if you are not admin)
 
 **Run the API and test cases**</br>
 Open terminal inside directory start the API with:
-docker-compose up
+`docker-compose up`
 
 **Access the API**</br>
 Open your web browser and navigate to:
@@ -30,13 +30,13 @@ http://localhost:3000/weather?city=Berlin&hour=14
 If you don't want to install docker, you can run the application using node.js. make sure you have node.js and npm installed</br>
 
 **Open the directory and run:**</br>
-npm install
+`npm install`
 
 **Run test cases**</br>
-npm test
+`npm test`
 
 **Run the API:**</br>
-npm start
+`npm start`
 
 **Access the API**</br>
 Open your web browser and navigate to:
