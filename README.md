@@ -41,3 +41,44 @@ If you don't want to install docker, you can run the application using node.js. 
 **Access the API**</br>
 Open your web browser and navigate to:
 http://localhost:3000/weather?city=london
+
+**API Response Example**</br>
+The API provides historical weather data in JSON format for a specified city and country. </br>
+
+The response includes:</br>
+
+**City and Country**: Location for the weather data (e.g., Melbourne, Australia). </br>
+**Local Time**: Current local time at the specified location. </br>
+**Historical Weather**: An array of weather entries with the following details: </br>
+**Date and Time**: The specific date and time for each weather reading. </br>
+**Temperature**: Recorded temperature at the time (in Celsius). </br>
+**Condition**: Brief weather condition description (e.g., "Sunny," "Patchy rain possible"). </br>
+Example Response:
+
+```json
+{
+  "city": "Melbourne",
+  "country": "Australia",
+  "localtime": "2024-11-06 11:17",
+  "historical_weather": [
+    {
+      "date": "2024-11-06",
+      "time": "2024-11-06 11:00",
+      "temperature": 31.1,
+      "condition": "Patchy rain possible"
+    },
+    {
+      "date": "2024-11-06",
+      "time": "2024-11-06 10:00",
+      "temperature": 29.1,
+      "condition": "Sunny"
+    },
+    {
+      "date": "2024-11-06",
+      "time": "2024-11-06 09:00",
+      "temperature": 24.6,
+      "condition": "Patchy rain possible"
+    }
+  ]
+}
+```
