@@ -21,10 +21,10 @@ http://localhost:3000/weather?city=london
 
 **You can pass two parameters to the API:**</br>
 city: Specify the city for the weather report.</br>
-hour: Specify the hour (optional) in past you want to check the weather for the city provided.
+hours: Specify the hours (optional) in past you want to check the weather for the city provided. If hours in past goes back to previous dates, you will get data accordingly. By default you get last 5 hours data if you don't provide this parameter.
 
 **Example:**
-http://localhost:3000/weather?city=Berlin&hour=14
+http://localhost:3000/weather?city=Berlin&hours=14
 
 **Alternative Setup**</br>
 If you don't want to install docker, you can run the application using node.js. make sure you have node.js and npm installed</br>
