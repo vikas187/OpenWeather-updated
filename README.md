@@ -5,7 +5,7 @@ Make sure you have Docker Desktop installed on your machine and its running.
 
 **Clone the repository**</br>
 Open terminal and run the command:</br>
-`git clone https://github.com/vikas187/OpenWeather.git`
+`https://github.com/vikas187/OpenWeather-updated.git`
 
 **Build the docker image**</br>
 Open Terminal inside directory and run:</br>
